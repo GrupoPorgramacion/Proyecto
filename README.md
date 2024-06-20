@@ -1,5 +1,9 @@
-Buenas tardes,Compañeros,Les daremos una pequeña introducion y guia de lo que es este proyecto.
-Para este proyecto decidimos hacer el juego de Piedra, Papel y Tijera, pero en este caso decidimos agregarle dos opciones mas, que en este caso serian Lizard y Spok.
+Buenos días, el juego funciona de la siguiente forma, se ejecuta el codigo y este nos abre una pestaña donde podremos escoger la opciones que queramos, y se comparara con la opcion escogia por la computadora posterior a esto se dara un ganador. 
+Para entender el juego mas a profundida, podemos observar el codigo donde aplicamos el bucle while ya que tenemos una condicion que es verdadera la cual son las opciones a escoger entre piedra, papel, tijera, spoke y lizard. Esto para que el usuario escoja su opción, posterior a eso asignamos le asignamos a la computadora la eleccion aleatoria con el comando random.choice, este comando nos da un elemendo random que este dentro de una cadena, un rango, una lista, una tupla o cualquier tipo de secuencia 
+Posterior a esto usamos condicionales para definir el ganador, empezamos planteando un empate entre el usuario y la computadora con el if, como segunda condicional planteamos todas las posibles victorias por parte del usuario con el elif y como tercera condicionante si no se llega a cumplir ninguna de las tres perderiamos, esto con el else.
+Luego de esto proponemos el el juego, donde se obtienen las opciones del usuario y de la computadora, se dan a conocer la eleccion de cada uno y se realiza una comparacion para si dar al ganador.
+En la gran parte del codigo podemos observar la declaracion return, la cual nos ayuda para dar el resultado de una función.
+Y eso seria la explicacion de nuestro código, en el cual predominan las condicionales y las elegimos porque se nos hizo la mejor forma de hacerlo ya que podiamos plantear todas las posibles victorias del usuario y compararlas con las de la maquina y en caso de que fueran distintas, plantear con el else que perdimos por esa parte se nos hizo mas facil y rapido de hacer con las condicionales.
 
 Instrucion de Uso:
 Para poder ejectuar la interfaz grafica del juego debemos tener previamente instalada la herramienta de pygame, que esta la instalamos mediante el cdm.
